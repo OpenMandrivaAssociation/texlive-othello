@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-othello
 Version:	20070112
-Release:	6
+Release:	7
 Summary:	Create othello boards in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/othello
