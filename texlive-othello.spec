@@ -1,13 +1,13 @@
 # revision 15878
 # category Package
 # catalog-ctan /macros/latex/contrib/othello
-# catalog-date 2007-01-12 15:52:44 +0100
+# catalog-date 2012-06-09 18:05:07 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-othello
-Version:	20070112
-Release:	7
-Summary:	Create othello boards in LaTeX
+Version:	20120609
+Release:	2
+Summary:	Modification of a Go package to create othello boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/othello
 License:	GPL
@@ -19,7 +19,7 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-A package (based on Kolodziejska's go), and fonts (as MetaFont
+A package (based on Kolodziejska's go), and fonts (as Metafont
 source) are provided.
 
 %post
@@ -73,17 +73,3 @@ source) are provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070112-2
-+ Revision: 754556
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070112-1
-+ Revision: 719169
-- texlive-othello
-- texlive-othello
-- texlive-othello
-- texlive-othello
-
