@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-othello
 Version:	20120609
-Release:	4
+Release:	5
 Summary:	Modification of a Go package to create othello boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/othello
