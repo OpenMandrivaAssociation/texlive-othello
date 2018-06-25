@@ -5,7 +5,7 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-othello
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Modification of a Go package to create othello boards
 Group:		Publishing
