@@ -1,18 +1,12 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/othello
-# catalog-date 2012-06-09 18:05:07 +0200
-# catalog-license gpl
-# catalog-version undef
 Name:		texlive-othello
-Version:	20190228
+Version:	15878
 Release:	1
 Summary:	Modification of a Go package to create othello boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/othello
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/othello.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/othello.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/othello.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/othello.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +17,12 @@ A package (based on Kolodziejska's go), and fonts (as Metafont
 source) are provided.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -66,7 +60,7 @@ source) are provided.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
