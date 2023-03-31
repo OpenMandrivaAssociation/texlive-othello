@@ -1,6 +1,6 @@
 Name:		texlive-othello
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Modification of a Go package to create othello boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/othello
