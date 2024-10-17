@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Modification of a Go package to create othello boards
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/othello
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/othello
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/othello.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/othello.doc.r%{version}.tar.xz
